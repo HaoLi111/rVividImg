@@ -4,6 +4,6 @@ image_normalize =function(x){
   (x-mi)/(ma-mi)
 }
 
-a=image_pdc_RGB(image_normalize(volcano))
-image(a[,,1])
-image(volcano)
+#a=image_pdc_RGB(image_normalize(volcano))
+#image(a[,,1])
+#image(volcano)

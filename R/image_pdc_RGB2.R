@@ -5,7 +5,6 @@ image_pdc_RGB2 = function(m,lower=NULL,mew=NULL,upper=NULL,
   if(is.null(mew)) mew = mean(m)
   if(is.null(upper)) upper = quantile(m,.9)
   nr=nrow(m);nc = ncol(m)
-
   lower = as.numeric(lower)
   upper =as.numeric(upper)
   #0 - lower - m - upper - 1
