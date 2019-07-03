@@ -10,4 +10,4 @@ Description: The package provides functions to amplify the patterns of images by
 License: GPL V3
 Encoding: UTF-8
 Suggests: tiff
-LazyData: true
+LazyData: false
